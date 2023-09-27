@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="container">
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container >
+      
         <Navbar.Brand href="/">
           <img className="headerLogo" src="younovelogo.png" alt="Younovel logo"/>
 
@@ -27,7 +27,7 @@ function Header() {
           </Nav>
           
         </Navbar.Collapse>
-      </Container>
+      
     </Navbar>
     </div>
   );
