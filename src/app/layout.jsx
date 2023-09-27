@@ -10,14 +10,15 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const metadata = {
-  title: 'YouNovel Academy',
-  description: 'YouNovel Academy Finland Website',
-}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Title</title>
+        <meta name='YouNovel Academy' content='YouNovel Academy Finland Website' />
+      </head>
+
       <body>
         
         <Header />
